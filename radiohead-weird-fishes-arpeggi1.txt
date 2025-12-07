@@ -1,11 +1,33 @@
 setcpm(153/4);
 
-
 $drums: sound("<[bd bd] ~ bd ~> [sd [~ sd]] ~ [sd [~ sd]]").bank("RolandTR505").gain(0.3).room(0.1);
 $hihat: sound("hh*8").bank("RolandTR505").gain(0.1);
 
 
 $bass:note(`< 
+  [[28 28] 33 38 40]
+  [40]
+  [40]
+  [40]
+  
+  [30]
+  [30]
+  [30]
+  [30]
+  
+  [33]
+  [33]
+  [33]
+  [33]
+  
+  [31 30 28 40]
+  [40]
+  [40]
+  [40]
+    >`).sound("gm_acoustic_bass").gain(0.7);
+
+
+$guitar1:note(`< 
   [62 55 52 62 55 52 62 55] 
   [52 62 55 52 62 55 52 62] 
   [55 52 62 55 52 62 55 52] 
@@ -28,7 +50,7 @@ $bass:note(`<
     >`).sound("gm_electric_guitar_muted:27").room(.6).pan(0.8)
 
 
-$guitar1:note(`< 
+$guitar2:note(`< 
   [64 62 64 62 59 64 62 64]
   [62 59 64 62 64 62 59 64]
   [62 64 62 59 64 62 64 64]
@@ -51,24 +73,3 @@ $guitar1:note(`<
     >`).sound("gm_electric_guitar_muted:37").room(.6).pan(0.2)
 
 
-$guitar2:note(`< 
-  [[28 28] 33 38 40]
-  [40]
-  [40]
-  [40]
-  
-  [30]
-  [30]
-  [30]
-  [30]
-  
-  [33]
-  [33]
-  [33]
-  [33]
-  
-  [31 30 28 40]
-  [40]
-  [40]
-  [40]
-    >`).sound("gm_acoustic_bass").gain(0.7);
