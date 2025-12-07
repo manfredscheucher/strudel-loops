@@ -1,4 +1,6 @@
-# making music with code/Strudel.cc: Weird Fishes/Arpeggi (by Radiohead)
+// making music with code/Strudel.cc: 
+// Weird Fishes/Arpeggi (by Radiohead)
+
 setcpm(153/64);
 
 $drums: sound("[<[bd bd] ~ bd ~> [sd [~ sd]] ~ [sd [~ sd]]]*16").bank("RolandTR505").gain(0.3).room(0.1);

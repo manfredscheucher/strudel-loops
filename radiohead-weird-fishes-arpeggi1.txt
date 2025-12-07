@@ -1,4 +1,5 @@
-# making music with code/Strudel.cc: Weird Fishes/Arpeggi (by Radiohead)
+// making music with code/Strudel.cc: 
+// Weird Fishes/Arpeggi (by Radiohead)
 
 setcpm(153/4);
 
