@@ -9,7 +9,7 @@ $hihat: sound("[hh*8]*16").bank("RolandTR505").gain(0.1);
 $bass:note(`
   [28 28] 33 38 40@13
   30 30@15
-  33 33@15
+  30 33@15
   31 30 28 40@13
     `).sound("gm_acoustic_bass").gain(0.7);
 
