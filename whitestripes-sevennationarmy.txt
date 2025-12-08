@@ -1,0 +1,10 @@
+// making music with code/Strudel.cc: 
+// Seven Nation Army (by The White Stripes)
+
+setcpm(124/4)
+
+$git:note("<[52@3 52 55@1.5 52@1.5 50] [48@4 47@2 -@2]>").sound("gm_electric_guitar_muted:3")
+
+$kick:sound("bd!4").bank("AkaiLinn").gain(1/4)
+
+$snare:sound("[- sd]!2").bank("AkaiLinn").gain(1/4)
