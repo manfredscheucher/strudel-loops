@@ -1,0 +1,66 @@
+// "8 Prinzessinnen" Intro (Monika Roscher Bigband)
+
+setcpm(7.4)
+
+$:note(`
+     50!2 -
+     50!2 -
+     50!1 -
+     50!1 -
+     50!4 -
+     50!1 -
+     50!2 -
+     50!1 -
+     50!1 -
+     50!3 -
+     50!1 -
+     50!3 -
+     50!1 -
+     50!1 -
+     50!2 -
+     50!2 -
+     50!3 
+`.add("[0,12]"))
+ .sound("gm_electric_guitar_muted")
+
+_$: 
+sound(`
+     hh!2 -
+     hh!2 -
+     hh!1 -
+     hh!1 -
+     hh!4 -
+     hh!1 -
+     hh!2 -
+     hh!1 -
+     hh!1 -
+     hh!3 -
+     hh!1 -
+     hh!3 -
+     hh!1 -
+     hh!1 -
+     hh!2 -
+     hh!2 -
+     hh!3 
+     `).bank("RolandTR808").gain(0.2)
+
+_$: 
+sound(`
+     - rim!2 
+     - rim!2 
+     - rim!1 
+     - rim!1 
+     - rim!4 
+     - rim!1 
+     - rim!2 
+     - rim!1 
+     - rim!1 
+     - rim!3 
+     - rim!1 
+     - rim!3 
+     - rim!1 
+     - rim!1 
+     - rim!2 
+     - rim!2 
+     hh!3 
+     `).bank("RolandTR808").gain(0.15)
